@@ -1,0 +1,14 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.block.browse.category' => 'Категории',
+      'plugins.block.browse.description' => 'Тази добавка предоставя инструменти за "преглед" в рамките на страничната лента.',
+      'plugins.block.browse.displayName' => 'Блок (поле) за предглед',
+      'plugins.block.browse' => 'Преглед',
+    ),
+  ),
+);

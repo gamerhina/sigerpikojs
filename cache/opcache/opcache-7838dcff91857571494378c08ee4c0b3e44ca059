@@ -1,0 +1,19 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.manualPaymentNotification.subject' => 'Известие за ръчно плащане',
+      'emails.manualPaymentNotification.body' => 'Трябва да се обработи ръчно плащане за списанието {$contextName} и потребителя {$senderName} (username &quot;{$senderUsername}&quot;).<br />
+<br />
+Платеният артикул е &quot;{$paymentName}&quot;.<br />
+Цената е {$paymentAmount} ({$paymentCurrencyCode}).<br />
+<br />
+Този имейл е генериран от Open Journal Systems\' Manual Payment plugin (Известие за ръчно плащане).',
+      'emails.manualPaymentNotification.description' => 'Този шаблон за имейл се използва за уведомяване на мениджъра на списанието, че е поискано ръчно плащане.',
+      'emailTemplate.variable.manualPaymentPlugin.senderUsername' => 'Потребителското име на потребителя, извършил плащането',
+    ),
+  ),
+);

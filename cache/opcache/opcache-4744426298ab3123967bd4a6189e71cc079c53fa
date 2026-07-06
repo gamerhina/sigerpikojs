@@ -1,0 +1,12 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.metadata.dc11.displayName' => 'Метаданни Dublin Core 1.1',
+      'plugins.metadata.dc11.description' => 'Допринася за схемите на Dublin Core версия 1.1 и адаптерите за приложения.',
+    ),
+  ),
+);

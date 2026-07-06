@@ -1,0 +1,14 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.gateways.resolver.displayName' => 'Резолвър плъгин',
+      'plugins.gateways.resolver.description' => 'Този плъгин решава проблеми и статии въз основа на информация за цитиране.',
+      'plugins.gateways.resolver.errors.errorMessage' => 'Не може да се разреши отделен обект с помощта на посочената информация за цитиране. Моля, уверете се, че информацията за цитиране е изчерпателна и се отнася до обект в това внедряване на OJS.',
+      'plugins.gateways.resolver.exportHoldings' => 'Експортиране на резултатите',
+    ),
+  ),
+);

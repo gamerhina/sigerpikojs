@@ -1,0 +1,12 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.OAIMetadata.rfc1807.displayName' => 'Формат за метаданни RFC1807',
+      'plugins.OAIMetadata.rfc1807.description' => 'Структурира метаданните по начин, който е в съответствие с RFC1807 формата.',
+    ),
+  ),
+);

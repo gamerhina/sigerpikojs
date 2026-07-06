@@ -1,0 +1,14 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.reports.subscriptions.displayName' => 'Отчет за абонаментите',
+      'plugins.reports.subscriptions.description' => 'Тази добавка (плъгин) реализира CSV отчет, съдържащ списък с абонаменти и тяхната информация.',
+      'plugins.reports.subscriptions.institutionMailingAddress' => 'Пощенски адрес на институцията',
+      'plugins.reports.subscriptions.ipRanges' => 'Диапазон от IP адреси',
+    ),
+  ),
+);

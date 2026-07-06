@@ -1,0 +1,20 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.block.subscription.displayName' => 'Блок за абонамент',
+      'plugins.block.subscription.description' => 'Този плъгин предоставя странична лента с информация за абонамент.',
+      'plugins.block.subscription.blockTitle' => 'Абонамент',
+      'plugins.block.subscription.expires' => 'Изтича на',
+      'plugins.block.subscription.providedBy' => 'Достъп осигурен от: {$institutionName}',
+      'plugins.block.subscription.comingFromIP' => 'Достъп от: {$ip}',
+      'plugins.block.subscription.about' => 'Абонаменти',
+      'plugins.block.subscription.loginToVerifySubscription' => 'Влезте в системата за да имате достъп до абонаментите.',
+      'plugins.block.subscription.subscriptionRequired' => 'За достъп до някои информационни ресурси се нуждаете от абонамент.',
+      'plugins.block.subscription.subscriptionRequired.learnMore' => 'Научете повече',
+    ),
+  ),
+);

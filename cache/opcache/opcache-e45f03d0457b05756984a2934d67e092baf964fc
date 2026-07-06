@@ -1,0 +1,47 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.users.displayName' => 'Плъгин за импорт/експорт на потребители в XML',
+      'plugins.importexport.users.description' => 'Импорт/експорт на потребители',
+      'plugins.importexport.users.cliUsage' => 'Употреба: {$scriptName} {$pluginName} [command] ...
+Команди:
+	import [xmlFileName] [journal_path]
+	export [xmlFileName] [journal_path]
+	export [xmlFileName] [journal_path] [userId1] [userId2] ...
+',
+      'plugins.importexport.users.cliUsage.examples' => '
+Примери:
+	Импорт на потребители в myJournal от myImportFile.xml:
+	{$scriptName} {$pluginName} import myImportFile.xml myJournal
+
+	Експорт на всички потребители от myJournal:
+	{$scriptName} {$pluginName} export myExportFile.xml myJournal
+
+	Експорт на потребители указани чрез тяхното ID:
+	{$scriptName} {$pluginName} export myExportFile.xml myJournal 1 2
+',
+      'plugins.importexport.users.import.importUsers' => 'Импорт на потребители',
+      'plugins.importexport.users.import.instructions' => 'Изберете XML файл с данни, съдържащ потребителска информация, за да импортирате в това списание. Вижте помощта за списанието за подробности относно формата на този файл. <br /> <br /> Обърнете внимание, че ако импортираният файл съдържа потребителски имена или имейл адреси, които вече съществуват в системата, потребителските данни за тези потребители няма да бъдат импортирани и всички нови роли, които ще бъдат създадени, ще бъдат присвоени на съществуващите потребители.',
+      'plugins.importexport.users.import.dataFile' => 'Файл с потребителски данни',
+      'plugins.importexport.users.import.sendNotify' => 'Изпратете имейл с известие до всеки импортиран потребител, съдържащ съответното потребителско име и парола.',
+      'plugins.importexport.users.import.continueOnError' => 'Ако възникне грешка импортирането продължава със следващите потребители.',
+      'plugins.importexport.users.import.usersWereImported' => 'Следните потребители бяха успешно импортирани в системата',
+      'plugins.importexport.users.import.errorsOccurred' => 'Възникнаха грешки по време на импортирането',
+      'plugins.importexport.users.import.confirmUsers' => 'Потвърдете, че това са потребителите, които искате да импортирате в системата',
+      'plugins.importexport.users.import.warning' => 'Предупреждение',
+      'plugins.importexport.users.import.encryptionMismatch' => 'Не можете да използвате пароли хеширани с {$importHash}; OJS е конфигуриран да използва {$ojsHash}. Ако продължите, ще трябва да нулирате паролите на импортираните потребители.',
+      'plugins.importexport.users.unknownPress' => 'Посочен е неизвестен път на списанието "{$journalPath}".',
+      'plugins.importexport.users.export.exportUsers' => 'Експорт на потребители',
+      'plugins.importexport.users.export.exportByRole' => 'Експорт според ролята',
+      'plugins.importexport.users.export.exportAllUsers' => 'Експорт на всички',
+      'plugins.importexport.users.export.errorsOccurred' => 'Възникнаха грешки по време на експортирането',
+      'plugins.importexport.users.importComplete' => 'Импортирането завърши успешно. Потребителите с потребителски имена и имейл адреси, които все още не се използват, са импортирани заедно с придружаващите ги групи потребители.',
+      'plugins.importexport.users.results' => 'Резултати',
+      'plugins.importexport.users.uploadFile' => 'Моля, качете файл в „Импорт“ за да продължите.',
+    ),
+  ),
+);

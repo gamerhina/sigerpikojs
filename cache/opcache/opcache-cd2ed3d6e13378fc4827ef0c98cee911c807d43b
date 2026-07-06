@@ -1,0 +1,20 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.paymethod.manual.displayName' => 'Ръчно плащане на такса',
+      'plugins.paymethod.manual.description' => 'Мениджърът ще запише ръчно получаването на плащане от потребителя (извън този софтуер).',
+      'plugins.paymethod.manual' => 'Ръчно плащане на такса',
+      'plugins.paymethod.manual.settings' => 'Инструкции за ръчно плащане на такса',
+      'plugins.paymethod.manual.sendNotificationOfPayment' => 'Изпращане на известие за плащане',
+      'plugins.paymethod.manual.paymentNotification' => 'Известие за плащане',
+      'plugins.paymethod.manual.notificationSent' => 'Известието за плащане е изпратено',
+      'plugins.paymethod.manual.purchase.title' => 'Заглавие',
+      'plugins.paymethod.manual.purchase.fee' => 'Такса',
+      'plugins.paymethod.manual.manualPaymentNotify.name' => 'Известие за ръчно плащане',
+    ),
+  ),
+);

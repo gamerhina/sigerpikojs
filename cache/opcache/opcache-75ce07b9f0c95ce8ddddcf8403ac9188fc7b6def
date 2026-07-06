@@ -1,0 +1,12 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.OAIMetadata.marc.displayName' => 'Формат за метаданни MARC',
+      'plugins.OAIMetadata.marc.description' => 'Структурира метаданните по начин, който е в съответствие с MARC формата.',
+    ),
+  ),
+);

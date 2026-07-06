@@ -1,0 +1,22 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.reports.counter.description' => 'Плъгинът COUNTER позволява отчитане на дейността на списанието, използвайки <a href="http://www.projectcounter.org">стандарта COUNTER</a>. Само тези доклади не правят списанието съвместимо с COUNTER. За да предложите съответствие с COUNTER, прегледайте изискванията на уебсайта на Project COUNTER.',
+      'plugins.reports.counter' => 'Отчет COUNTER',
+      'plugins.reports.counter.release' => 'COUNTER Версия',
+      'plugins.reports.counter.error.badParameters' => 'Параметрите на отчета бяха невалидни.',
+      'plugins.reports.counter.error.badRequest' => 'Заявката за отчет е невалидна.',
+      'plugins.reports.counter.error.noResults' => 'Не бяха намерени резултати за този отчет.',
+      'plugins.reports.counter.error.noXML' => 'Резултатите не могат да бъдат форматирани като XML.',
+      'plugins.reports.counter.1a.name' => 'COUNTER Отчет JR1 (R3)',
+      'plugins.reports.counter.1a.description' => 'COUNTER Journal Report 1 (R3): Пълнотекстови заявки за статии по месец и списание',
+      'plugins.reports.counter.allCustomers' => 'Всички клиенти',
+      'plugins.reports.counter.ar1.title' => 'Отчет по статии 1',
+      'plugins.reports.counter.jr1.title' => 'Отчет по списания 1',
+    ),
+  ),
+);

@@ -1,0 +1,24 @@
+# Database & site configuration
+config.inc.php
+
+# OJS archive installer
+ojs-3.4.0-10.tar.gz
+
+# Cache files (keep directory structure but ignore files)
+/cache/*.php
+/cache/_db/*.php
+/cache/t_cache/*.php
+/cache/t_compile/*.php
+/cache/t_config/*.php
+
+# Public uploads (user uploaded files like logos, styles, etc. should generally be managed on server)
+/public/*
+!/public/index.html
+
+# Logs
+*.log
+error_log
+
+# OS generated files
+.DS_Store
+Thumbs.db

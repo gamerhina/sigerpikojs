@@ -1,0 +1,19 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.paymethod.paypal.displayName' => 'Плащане на такса чрез Paypal',
+      'plugins.paymethod.paypal.description' => 'Плащанията ще бъдат обработвани с помощта на услугата PayPal.',
+      'plugins.paymethod.paypal' => 'Плащане на такса чрез Paypal',
+      'plugins.paymethod.paypal.settings' => 'Настройки за плащане на такса чрез Paypal',
+      'plugins.paymethod.paypal.settings.testMode' => 'Тестов режим',
+      'plugins.paymethod.paypal.settings.accountName' => 'Акаунт (Account Name)',
+      'plugins.paymethod.paypal.settings.clientId' => 'Клиентски номер (Client ID)',
+      'plugins.paymethod.paypal.settings.secret' => 'Секретен код',
+      'plugins.paymethod.paypal.error' => 'Възникна грешка при транзакция. Моля, свържете се с мениджъра на списанието за подробности.',
+    ),
+  ),
+);

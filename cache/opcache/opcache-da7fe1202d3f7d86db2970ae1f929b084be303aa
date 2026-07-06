@@ -1,0 +1,13 @@
+<?php $exp = 1814873920; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.block.information.displayName' => 'Информационен блок',
+      'plugins.block.information.description' => 'Този плъгин предоставя странична лента с връзка "Информационен блок".',
+      'plugins.block.information.link' => 'Информация',
+    ),
+  ),
+);
