@@ -19,12 +19,12 @@
 		
 		{* Topbar *}
 		<div class="sigerpik-topbar">
-			<div class="container d-flex justify-content-between align-items-center">
-				<div class="d-flex align-items-center gap-3">
+			<div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+				<div class="d-flex align-items-center gap-2 gap-md-3 flex-wrap">
 					<span><i class="bi bi-envelope-fill me-1"></i> {$activeTheme->getOption('sigerpikEmail')}</span>
 					<span><i class="bi bi-telephone-fill me-1"></i> {$activeTheme->getOption('sigerpikPhone')}</span>
 				</div>
-				<div class="d-flex align-items-center gap-3">
+				<div class="d-flex align-items-center gap-2 gap-md-3 flex-wrap">
 					<a href="{url page="about" op="submissions"}">Make a Submission</a>
 					{if $isUserLoggedIn}
 						<a href="{url page="user" op="profile"}" class="btn btn-sm btn-outline-light rounded-pill px-3" style="font-size: 12px; padding-top: 2px; padding-bottom: 2px;">Profile</a>

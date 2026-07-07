@@ -122,9 +122,9 @@
 </div>
 
 {* 2. ANNOUNCEMENT BAR *}
-<div class="sigerpik-announcement-box">
-    <div class="d-flex align-items-center gap-3 flex-grow-1">
-        <span class="announcement-badge"><i class="bi bi-megaphone-fill me-1"></i> Pengumuman</span>
+<div class="sigerpik-announcement-box flex-wrap gap-2">
+    <div class="d-flex align-items-center gap-2 gap-md-3 flex-grow-1" style="min-width: 0;">
+        <span class="announcement-badge flex-shrink-0"><i class="bi bi-megaphone-fill me-1"></i> Pengumuman</span>
         <span class="text-truncate" style="font-weight: 500;">
             {if $announcements && $announcements|@count > 0}
                 {$announcements[0]->getLocalizedTitle()|escape}
@@ -133,7 +133,7 @@
             {/if}
         </span>
     </div>
-    <a href="{url page="announcement"}" class="text-primary font-weight-bold text-nowrap ms-3" style="font-size: 13px;">Lihat Semua <i class="bi bi-arrow-right"></i></a>
+    <a href="{url page="announcement"}" class="text-primary font-weight-bold text-nowrap flex-shrink-0" style="font-size: 13px;">Lihat Semua <i class="bi bi-arrow-right"></i></a>
 </div>
 
 {* 3. WIDGETS ROW (Current Issue, Focus & Scope, Quick Links) *}
