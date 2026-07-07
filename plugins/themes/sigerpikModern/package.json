@@ -1,0 +1,21 @@
+{
+  "name": "sigerpik-modern-theme",
+  "version": "1.0.0",
+  "description": "SigerPIK Modern Theme for OJS 3.4+",
+  "main": "assets/js/theme.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "ojs",
+    "theme",
+    "sigerpik",
+    "unila"
+  ],
+  "author": "SigerPIK Development Team",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

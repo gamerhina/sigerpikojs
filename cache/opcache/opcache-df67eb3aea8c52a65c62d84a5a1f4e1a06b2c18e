@@ -1,0 +1,9 @@
+<?php $exp = 1814945198; $val = array (
+  'application' => 'sigerpikModern',
+  'class' => 'APP\\plugins\\themes\\sigerpikModern\\SigerpikModernThemePlugin',
+  'type' => 'plugins.themes',
+  'release' => '1.0.0.0',
+  'date' => '2026-07-07',
+  'lazy-load' => 0,
+  'sitewide' => 0,
+);
